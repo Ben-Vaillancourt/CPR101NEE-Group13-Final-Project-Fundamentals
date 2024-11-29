@@ -1,0 +1,38 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+
+Type the character position within the string:
+
+Too big... Position reduced to max. available
+The character found at -1 position is ' '
+Type not empty string (q - to quit):
+Test
+Type the character position within the string:
+3
+The character found at 3 position is 't'
+Type not empty string (q - to quit):
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Type the character position within the string:
+The character found at 0 position is 'A'
+Type not empty string (q - to quit):
+Type the character position within the string:
+5
+The character found at 5 position is 'A'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+
+The length of '' is 0 characters
+Type a string (q - to quit):
+Hello
+The length of 'Hello' is 5 characters
+Type a string (q - to quit):
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+The length of 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' is 78 characters
+Type a string (q - to quit):
+The length of 'AAAAAAAAAAAAAAAAAAAAAA' is 22 characters
+Type a string (q - to quit):
+q

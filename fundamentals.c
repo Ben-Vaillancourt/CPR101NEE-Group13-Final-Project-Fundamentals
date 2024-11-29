@@ -34,8 +34,24 @@ void fundamentals()
 	} while (strcmp(buffer1, "q") != 0);
 	printf("*** End of Indexing Strings Demo ***\n\n");
 
-/* Version 2 */
 
+/* Version 2 */
+	printf("*** Start of Measuring Strings Demo ***\n");
+	char buffer2[BUFFER_SIZE];
+	do {
+		printf("Type a string (q - to quit):\n");
+
+		//gets the length of user input
+		fgets(buffer2, BUFFER_SIZE, stdin);
+		buffer2[strlen(buffer2) - 1] = '\0';
+
+		//checks if user quit program, if not the length of their input is displayed
+		if (strcmp(buffer2, "q") != 0)
+			printf("The length of \'%s\' is %d characters\n", buffer2, (int)strlen(buffer2));	
+
+
+	} while (strcmp(buffer2, "q") !=0);
+	printf("*** End of Measuring Strings Demo ***\n\n");
 
 /* Version 3 */
 
