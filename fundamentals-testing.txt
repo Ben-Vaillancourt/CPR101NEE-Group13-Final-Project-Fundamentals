@@ -41,3 +41,16 @@ q
 *** Start of Copying Strings Demo ***
 Destination string is reset to empty
 Type the source string (q - to quit):
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit):
+test
+New destination string is 'test'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit):
+q

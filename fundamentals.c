@@ -71,7 +71,7 @@ void fundamentals()
 		source[strlen(source) - 1] = '\0';
 
 		//checks if user entered q to quit program
-		if (strcpy(source, "q") != 0) {
+		if (strcmp(source, "q") != 0) {
 			strcpy(destination, source);
 			printf("New destination string is \'%s\'\n", destination);
 		}
