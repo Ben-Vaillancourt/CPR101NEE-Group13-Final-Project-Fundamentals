@@ -54,6 +54,27 @@ void fundamentals()
 	printf("*** End of Measuring Strings Demo ***\n\n");
 
 /* Version 3 */
+	printf("*** Start of Copying Strings Demo ***\n");
 
+	// create location to store original user input and copy
+	char destination[BUFFER_SIZE];
+	char source[BUFFER_SIZE];
+	do {
+		destination[0] = '\0';
+		printf("Destination string is reset to empty\n");
+		printf("Type the source string (q - to quit):\n");
 
+		//stores user input in source
+		fgets(source, BUFFER_SIZE, stdin);
+
+		// add null terminator to end of the coppied source value
+		source[strlen(source) - 1] = '\0';
+
+		//checks if user entered q to quit program
+		if (strcpy(source, "q") != 0) {
+			strcpy(destination, source);
+			printf("New destination string is \'%s\'\n", destination);
+		}
+	} while (strcmp(source, "q") != 0);
+	printf("***End of Copying Strings Demo ***\n\n");
 } 

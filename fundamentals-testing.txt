@@ -36,3 +36,8 @@ Type a string (q - to quit):
 The length of 'AAAAAAAAAAAAAAAAAAAAAA' is 22 characters
 Type a string (q - to quit):
 q
+*** End of Measuring Strings Demo ***
+
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
